@@ -1,125 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="uber-clone/style.css">
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Uber Clone</title>
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
 </head>
 <body>
-    
-    <header>
-        <div class="left-half">
-            <p class="logo">Uber</p>
-            <p class="nav">Ride</p>
-            <p class="nav">Drive</p>
-            <p class="nav">Business</p>
-            <p class="nav">About <i class="fa-solid fa-angle-down"></i></p>
 
+<header class="navbar">
+    <div class="container nav-wrapper">
+        <div class="nav-left">
+            <h2 class="logo">Uber</h2>
+            <nav>
+                <a href="#">Ride</a>
+                <a href="#">Drive</a>
+                <a href="#">Business</a>
+                <a href="#">About <i class="fa-solid fa-angle-down"></i></a>
+            </nav>
         </div>
 
-        <div class="right-half">
-            <p>Login</p>
-            <button class="sign-up">Sign Up</button>
-            &#9776;
+        <div class="nav-right">
+            <a href="#">Login</a>
+            <button class="btn-primary">Sign Up</button>
+            <i class="fa-solid fa-bars menu-icon"></i>
         </div>
-    </header>
-
-
-    <section class="first-hero">
-        <section class="hero">
-    <div class="hero-text">
-        <h1>Go anywhere with Uber</h1>
-        <p>Request a ride, hop in, and go.</p>
-
-        <form class="ride-form">
-            <input type="text" placeholder="Enter pickup location">
-            <input type="text" placeholder="Enter destination">
-            <button type="submit">See prices</button>
-        </form>
     </div>
-    <div class="right-pickup">
+</header>
+
+<section class="hero">
+    <div class="container hero-grid">
+        <div class="hero-text">
+            <h1>Go anywhere with Uber</h1>
+            <p>Request a ride, hop in, and go.</p>
+
+            <form class="ride-form">
+                <input type="text" placeholder="Enter pickup location">
+                <input type="text" placeholder="Enter destination">
+                <button>See prices</button>
+            </form>
+        </div>
+
+        <div class="hero-image">
             <img src="https://cn-geo1.uber.com/image-proc/crop/resizecrop/udam/format=auto/width=1344/height=896/srcb64=aHR0cHM6Ly90Yi1zdGF0aWMudWJlci5jb20vcHJvZC91ZGFtLWFzc2V0cy9hM2NmODU2NC1lMmE2LTQxOGMtYjliMC02NWRkMjg1YzEwMGIuanBn" alt="">
         </div>
+    </div>
 </section>
-        
-        
-    </section>
 
-    
+<footer class="footer">
+    <div class="container">
 
+        <h2 class="footer-logo">Uber</h2>
+        <p class="help-link">Visit Help Center</p>
 
-
-
-    <footer class="footer-uber">
-        <div class="first-horizontal-footer">
-            <h1>Uber</h1>
-        </div>
-        <div class="second-horizontal-footer">
-            <p>Visit Help Center</p>
-        </div>
-           
-        <div class="main-columns">
-
-            <div class="sub-columns">
-                <h1>Company</h1>
-                <a href="">About us</a>
-                <a href="">Our offerings</a>
-                <a href="">Newsroom</a>
-                <a href="">Investors</a>
-                <a href="">Blog</a>
-                <a href="">Careers</a>
-                <a href="">Uber One</a>
+        <div class="footer-columns">
+            <div>
+                <h4>Company</h4>
+                <a href="#">About us</a>
+                <a href="#">Newsroom</a>
+                <a href="#">Investors</a>
+                <a href="#">Careers</a>
             </div>
 
-            <div class="sub-columns">
-                <h1>Products</h1>   
-                <a href="">Ride</a>
-                <a href="">Drive</a>
-                <a href="">Eat</a>
-                <a href="">Uber for Business</a>
-                <a href="">Uber Freight</a>
-                <a href="">Gift cards</a>
-                <a href="">Uber Health</a>
+            <div>
+                <h4>Products</h4>
+                <a href="#">Ride</a>
+                <a href="#">Drive</a>
+                <a href="#">Eat</a>
+                <a href="#">Uber Freight</a>
             </div>
-            
-            <div class="sub-columns">
-                <h1>Global Citizenship</h1>
-                <a href="">Safety</a>
-                <a href="">Sustainability</a>
+
+            <div>
+                <h4>Global Citizenship</h4>
+                <a href="#">Safety</a>
+                <a href="#">Sustainability</a>
             </div>
-            <div class="sub-columns">
-                <h1>Travel</h1>
-                <a href="">Reserve</a>
-                <a href="">Airports</a>
-                <a href="">Cities</a>
-                
+
+            <div>
+                <h4>Travel</h4>
+                <a href="#">Airports</a>
+                <a href="#">Cities</a>
+                <a href="#">Reserve</a>
             </div>
-            
         </div>
 
         <div class="socials">
-                                                                                                                                                                                                                                                                                                                                                                        
-                <button class="social_icons">
-                  <img src="linkedin.svg">
-                </button>
-                <button class="social_icons">
-                  <img src="youtube-brands-solid-full.svg">
-                </button>
-                <button class="social_icons">
-                  <img src="insta.svg">
-                </button>
-                <button class="social_icons">
-                  <img src="x.svg">
-                </button>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-x-twitter"></i>
         </div>
 
-         
-            
-    </footer>
+    </div>
+</footer>
 
 </body>
 </html>
